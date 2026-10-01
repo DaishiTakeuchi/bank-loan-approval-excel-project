@@ -1,16 +1,28 @@
-# Bank Loan Approval Analysis (Excel Dashboard)
+# Bank Loan Approval Analysis (Excel)
 
 Excel dashboard analyzing what drives loan approval decisions, built for Thai banking data-analyst roles.
 
 [View the dashboard & full project summary on Notion ](https://app.notion.com/p/Bank-Loan-Approval-Analysis-3e9872d573c980bda9cdc4a6c539279f?source=copy_link)
 
-[Google Sheets version](PASTE_GOOGLE_SHEETS_LINK)
+[Google Sheets version](https://docs.google.com/spreadsheets/d/1zcW-MM6ejO5cPt5sUSxGysaETtznPMthmcGGTQvCBNg/edit?usp=sharing)
+
 
 ## Objective
-Identify which applicant factors influence loan approval and where approval decisions look inconsistent.
+Analyze loan applications to find which applicant factors actually drive approval decisions.
 
 ## Dataset
-Loan Approval Classification Dataset (Kaggle, public data)
+[loan Approval Classification Dataset (Kaggle, public data)](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
+
+## Approach
+analytical into 5 dimensions:
+
+| # | Dimension | Focus |
+|---|-----------|-------|
+| 1 | Demographic | Age, gender, education vs approval |
+| 2 | Financial Profile | Income, work experience, home ownership |
+| 3 | Loan Terms | Loan intent, loan-to-income (LPI), loan size, interest rate |
+| 4 | Credit History | Credit score, credit history length, previous defaults |
+| 5 | Composite Risk | Combined risk segment (credit score + default + LPI) |
 
 ## Tools
 - **Excel**: PivotTables, formulas, charts, dashboard design
